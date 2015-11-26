@@ -1,0 +1,23 @@
+{
+  "name": "omnichord",
+  "description": "Lets finally make my omnichord as an angular instrument",
+  "main": "index.js",
+  "authors": [
+    "Matt Paul <mattpaul001@icloud.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.8",
+    "angular-resource": "~1.4.8"
+  }
+}
