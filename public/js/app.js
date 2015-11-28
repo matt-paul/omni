@@ -1,1 +1,1 @@
-var omni = angular.module('Omnichord', ['ngResource']);
+var app = angular.module('Omnichord', []);

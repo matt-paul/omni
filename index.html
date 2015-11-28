@@ -3,12 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <title>the Womnichord</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="public/css/styles.css">
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-resource/angular-resource.js"></script>
   <script src="public/js/app.js"></script>
+  <script src="public/js/controllers/OmniController.js"></script>
+  <script type="text/ng-template" id="public/partials/pads.html"></script>
 </head>
-<body>
-  
+<body ng-controller="OmniController as omniCtrl">
+  <div id="omni">
+
+
+<div ng-include src="'public/partials/pads.html'">
+</div>
+
+
+  <!-- <div class="pads"> -->
+  <!--   <div class="major-pads">Major -->
+  <!--     <button class="chord-btn" ng-click="omniCtrl.changeChord('Db')">Db</button> -->
+  <!--     <button class="chord-btn" ng-click="omniCtrl.changeChord('Ab')">Ab </button> -->
+  <!--     <button class="chord-btn" ng-click="omniCtrl.changeChord('Eb')">Eb</button> -->
+  <!--     <button class="chord-btn" ng-click="omniCtrl.changeChord('Bb')">Bb</button> -->
+  <!--     <button class="chord-btn" ng-click="omniCtrl.changeChord('F')">F</button> -->
+  <!--     <button class="chord-btn" ng-click="omniCtrl.changeChord('C')">C</button> -->
+  <!--     <button class="chord-btn" ng-click="omniCtrl.changeChord('G')">G</button> -->
+  <!--     <button class="chord-btn" ng-click="omniCtrl.changeChord('D')">D</button> -->
+  <!--     <button class="chord-btn" ng-click="omniCtrl.changeChord('A')">A</button> -->
+  <!--     <button class="chord-btn" ng-click="omniCtrl.changeChord('E')">E</button> -->
+  <!--     <button class="chord-btn" ng-click="omniCtrl.changeChord('B')">B</button> -->
+  <!--     <button class="chord-btn" ng-click="omniCtrl.changeChord('F#')">F#</button> -->
+  <!--   </div> -->
+
+    <!-- <div class="minor-pads">Minor -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('Db-min')">Db</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('Ab-min')">Ab </button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('Eb-min')">Eb</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('Bb-min')">Bb</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('F-min')">F</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('C-min')">C</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('G-min')">G</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('D-min')">D</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('A-min')">A</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('E-min')">E</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('B-min')">B</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('F#-min')">F#</button> -->
+    <!-- </div> -->
+
+    <!-- <div class="7th-pads">7th -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('Db-7th')">Db</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('Ab-7th')">Ab </button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('Eb-7th')">Eb</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('Bb-7th')">Bb</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('F-7th')">F</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('C-7th')">C</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('G-7th')">G</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('D-7th')">D</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('A-7th')">A</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('E-7th')">E</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('B-7th')">B</button> -->
+    <!--   <button class="chord-btn" ng-click="omniCtrl.changeChord('F#-7th')">F#</button> -->
+    <!-- </div> -->
+
+  <!-- </div> -->
+
+  </div>
 </body>
 </html>

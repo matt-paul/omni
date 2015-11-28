@@ -1,0 +1,30 @@
+#omni {
+  position: relative;
+  width: 60%;
+  height: 150px;
+  margin: 20px 0;
+  background: tan;
+  border-radius: 50% / 10%;
+  color: blue;
+  text-align: center;
+  text-indent: .1em;
+}
+/* #omni:before { */
+  /* content: ''; */
+  /* position: absolute; */
+  /* top: 10%; */
+  /* bottom: 10%; */
+  /* right: -5%; */
+  /* left: -5%; */
+  /* background: inherit; */
+  /* border-radius: 5% / 50%; */
+/* } */
+
+.pads {
+  width: 70%;
+  margin: 20px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
